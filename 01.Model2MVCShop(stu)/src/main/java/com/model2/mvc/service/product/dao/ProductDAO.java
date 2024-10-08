@@ -125,7 +125,7 @@ public class ProductDAO {
 		PreparedStatement stmt = con.prepareStatement(sql);
 		stmt.setString(1, productVO.getProdName());
 		stmt.setString(2, productVO.getProdDetail());
-		stmt.setString(3, productVO.getManuDate().split("-")[0]+productVO.getManuDate().split("-")[1]+productVO.getManuDate().split("-")[2]);
+		stmt.setString(3, productVO.getManuDate());
 		stmt.setInt(4, productVO.getPrice());
 		stmt.setString(5, productVO.getFileName());
 		stmt.executeUpdate();

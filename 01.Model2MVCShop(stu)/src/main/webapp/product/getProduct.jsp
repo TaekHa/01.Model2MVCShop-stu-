@@ -80,7 +80,7 @@
 		</td>
 		<td bgcolor="D6D6D6" width="1"></td>
 		<td class="ct_write01">
-			<img src = <%=vo.getFileName() %>/></td>
+			<img src = "../images/uploadFiles/<%=vo.getFileName() %>"/></td>
 	</tr>
 	<tr>
 		<td height="1" colspan="3" bgcolor="D6D6D6"></td>
